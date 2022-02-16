@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.memo {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 100px;
+}
+
+.button{
+    height: 250px;
+    border: none;
+    box-shadow: 0 0 0.5em black;
+    margin: 2px;
+}
+
+.b1{
+    background-color: rgba(0, 128, 0, 0.445);
+}
+.b2{
+    background-color: rgba(255, 0, 0, 0.445);
+}
+
+.b3{
+    background-color:  rgba(0, 0, 255, 0.445);
+}
+
+.b4{
+    background-color: rgba(255, 255, 0, 0.445);
+}
+
+
+.b1:hover {
+    background: green !important;
+}
+.b2:hover {
+    background: red !important;
+}
+
+.b3:hover {
+    background: blue !important;
+}
+
+.b4:hover {
+    background: yellow !important;
+}
+
